@@ -1,0 +1,10 @@
+tup1=(1,2,3,4,5,6,7,8,9,10)
+tup2=(2,3,5,7,8,9,6,1,10)
+tup3=tup1+tup2
+print(tup3)
+print(tup1[4:6])
+print(tup2[3:])
+print(tup3[::-1])
+print(tup1[1:8] + tup2[2:6] + tup3[::7])
+print(tup3.index(5))
+print(tup2.index(7))
